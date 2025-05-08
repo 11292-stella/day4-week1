@@ -30,5 +30,11 @@ public abstract class Dipendente {
 
     }
 
+    public void checkIn() {
+        System.out.println("Il dipendente inizia il suo turno");
+    }
+
     public abstract double calculateSalary();
+
+
 }
